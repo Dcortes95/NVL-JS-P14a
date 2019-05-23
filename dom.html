@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dom peliculas 3</title>
+</head>
+<body>
+	<div>
+		<img src="img/accion.jpg">
+		<ul id="Aventuras">
+			<li><button onclick="Aventuras()">El señor de los anillos. 3</button></li><br>
+			<li><button onclick="Accion()">Regreso al futuro.</button></li><br>
+			<li><button onclick="Animación()">Los increibles 2.</button></li><br>
+			<li><button onclick="Animación()">El libro de la selva.</button></li><br>
+			<li><button onclick="Accion()">El libro de Eli.</button></li><br>
+			<li><button onclick="Drama()">La vida es bella.</button></li><br>
+			<li><button onclick="Accion()">Transformers.</button></li><br>
+			<li><button onclick="Aventuras()">El Hobbit.</button></li><br>
+			<li><button onclick="Animación()">Robin Hood.</button></li><br>
+			<li><button onclick="Drama()">Me llaman Radio.</button></li><br>
+			<li><button onclick="Aventuras()">Viaje al centro de la tierra.</button></li><br>
+			<li><button onclick="Animación()">El rey león.</button></li><br>
+			<li><button onclick="Aventuras()">Piratas del caribe.</button></li><br>
+			<li><button onclick="Accion()">Fast & Furious.</button></li><br>
+			<li><button onclick="Accion()">Resident Evil.</button></li><br>
+			<li><button onclick="Accion()">Los vengadores.</button></li><br>
+			<li><button onclick="Accion()">Los mercenarios.</button></li><br>
+			<li><button onclick="Aventuras()">La momia.</button></li><br>
+			<li><button onclick="Ciencia_Ficcion()">Interestellar.</button></li><br>
+			<li><button onclick="Animación()">Tarzán.</button></li><br>
+			<li><button onclick="Ciencia_Ficcion()">Star Wars.</button></li><br>
+			<li><button onclick="Accion()">Troya.</button></li>
+			
+
+		</ul>
+	</div>
+
+<script>	
+
+	function Aventuras(){
+		var imagen = '<img src="NVL-JS-P14a/img/accion.jpg" alt="cargando..." />';
+		document.write(imagen);
+  	 }
+	
+	var pelis= [
+	{	
+		"Nombre": "El señor de los anillos",
+		"Género": "Aventuras"
+		
+	},
+	{
+		"Nombre":"Regreso al futuro",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"Los increibles 2",
+		"Género":"Animación"
+	},
+	{
+		"Nombre":"El libro de la selva",
+		"Género":"Animación"
+	},
+	{
+		"Nombre":"El libro de Eli",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"La vida es bella",
+		"Género":"Drama"
+	},
+	{
+		"Nombre":"Transformers",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"El Hobbit",
+		"Género":"Aventuras"
+	},
+	{
+		"Nombre":"Robin Hood",
+		"Género":"Animación"
+	},
+	{
+		"Nombre":"Me laman Radio",
+		"Género":"Drama"
+	},
+	{
+		"Nombre":"Viaje al centro de la tierra",
+		"Género":"Aventuras"
+	},
+	{
+		"Nombre":"El rey león",
+		"Género":"Animación"
+	},
+	{
+		"Nombre":"Piratas del caribe",
+		"Género":"Aventuras"
+	},
+	{
+		"Nombre":"Fast & Furious",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"Resident Evil",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"Los vengadores",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"Los mercenarios",
+		"Género":"Acción"
+	},
+	{
+		"Nombre":"La momia",
+		"Género":"Aventuras"
+	},
+	{
+		"Nombre":"Interestellar",
+		"Género":"Ciencia ficción"
+	},
+	{
+		"Nombre":"Tarzán",
+		"Género":"Aventuras"
+	},
+	{
+		"Nombre":"Star Wars",
+		"Género":"Ciencia ficción"
+	},
+	{
+		"Nombre":"Troya",
+		"Género":"Acción"
+	},
+	];
+
+	for(var i=0; i < pelis.length; i++ ){
+		console.log(pelis[i]);
+	}
+
+	
+	
+
+</script>
+</body>
+</html>
